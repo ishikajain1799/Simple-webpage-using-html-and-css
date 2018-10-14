@@ -1,0 +1,147 @@
+#container{
+	width :1100px;
+    
+    margin : 0px auto;
+}
+.header{
+	display:block;
+}
+h1{
+	color: purple;
+	font-size:45px;
+	font-weight: normal;
+	float:left;
+}
+.forms{
+	float:right;
+	background:linear-gradient(#E4F2B9, #B7E953);
+	width : 450px;
+	padding:20px;
+	margin:20px 0;
+
+}
+.submit{
+	background-color: #A751D6;
+	color:white;
+	padding:6px;
+	font-size:15px;
+	font-weight:bold;
+    float:right;
+}
+.text{
+	color:orange;
+	padding:5px;
+	width :200px;
+	border: 1px solid orange;
+	background: white url("logo1.png")  no-repeat right;
+}
+.clear{
+	clear:both;
+}
+.menu{
+	height :80px;
+	background:linear-gradient(#F8F594, #D5D533);
+	border :1 px solid black;
+	padding :5px 30px;
+}
+.menu ul li{
+	list-style:none;
+	float:left;
+	padding: 15px;
+	padding-right :25px;
+	text-transform:uppercase;
+	font-size:17px;
+	border-right:1px solid black;
+	text-align: auto ;
+    line-height :10px;
+}
+.menu ul li a {
+	text-decoration :none ;
+	color:purple;
+}
+.menu ul li a:hover ,.menu ul li a.active{
+	font-size:20px;
+	transition: font-size 0.3s ease;
+	color:#C34FDB;
+}
+ .menu ul li:last-child{
+ 	border: none;
+ }
+.introduction {
+	
+	background: linear-gradient(#E4F2B9, #B7E953);
+	margin:20px 0;
+	padding :20px;
+}
+.introduction h3{
+	color:#316901;
+	font-size:45px;
+	font-weight:normal;
+}
+.introduction{
+	font-size: 25px;
+    color: #628F19;
+    text-align: justify;
+}
+.leftside {
+	float :left;
+}
+.rightside{
+	float:right;
+}
+.leftside,.rightside{
+	height:460px;
+	width : 450px;
+	border :1px solid #B7E953;
+	border-radius: 10px;
+	padding:0 30px;
+}
+.leftside ul li {
+	list-style:none;
+	list-style-image: url("arrow1.png");
+	padding-left : 5px;
+	padding-top:5px;
+	font-size: 20px;
+	
+
+}
+.rightside ul li {
+	list-style:none;
+	list-style-image: url("arrow2.jpg");	
+	font-size: 20px;
+	padding:10px;
+}
+.leftside ul li a{
+	text-decoration :none ;
+	color: blue;
+} 
+.rightside ul li a{
+	text-decoration :none ;
+	color: blue;
+} 
+.leftside ul li a:hover {
+	font-size:23px;
+	transition : font-size 0.3s ease;
+	font-weight :bold;
+	color:#C34FDB;
+}
+.rightside ul li a:hover {
+	font-size:23px;
+	transition : font-size 0.3s ease;
+	font-weight :bold;
+	color:#C34FDB;
+}
+.leftside h3{
+	font-size: 30px;
+	color:purple;
+}
+.rightside h3{
+	font-size: 30px;
+	color:purple;
+}
+.footer{
+	margin: 20px 0;
+	height :60px;
+	padding :20px;
+	background:linear-gradient(#F6F390, #D5D533);
+}
